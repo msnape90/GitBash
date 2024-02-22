@@ -1,0 +1,4 @@
+git branch -m $oldBranchName $newBranchName
+git fetch origin
+git branch -u origin/$newBranchName $newBranchName
+git remote set-head origin -a
